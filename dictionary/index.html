@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="../img/title-logo.png" type="image/x-icon" />
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="header">
+            <a href="../course-list/courses-list.html" class="title">
+                Learning English
+            </a>
+            <div class="menu">
+                <ul>
+                    <li id="course">
+                        <a href="../course-list/courses-list.html">Bài học</a>
+                    </li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
+            <div class="user">
+                <div class="dropdown">
+                    <div class="dropbtn">
+                        <img
+                            id="avatar"
+                            src="../img/avatar.png"
+                            class="avatar"
+                        />
+                        <a
+                            id="username"
+                            href="../profile/view-profile/view-profile.html"
+                            >User</a
+                        >
+                    </div>
+
+                    <div class="dropdown-content">
+                        <a href="../profile/view-profile/view-profile.html"
+                            >Profile</a
+                        >
+                        <a href="../change-password/changepass.html"
+                            >Thay đổi mật khẩu</a
+                        >
+                        <a style="cursor: pointer" id="logout">Đăng xuất</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="dic-container">
+            <div class="dic-content">
+              <form  class ="form">
+               <div class = 'dic-child1'>
+               <h3><i class="fal fa-book"></i> Dictionary</h3>
+              <div class = 'search'>
+              <input type="text" name="word" class="word">
+              <button type = 'submit'>Search</button>
+              
+              </div>
+                  </div>
+                   <div class = 'div-child2'>
+                   <h2 class = 'search-word'></h2>
+                   <div class = 'div-child2-content explain1' style="display:none">
+                   <h4><i class="fas fa-star"></i><span class = 'noun1'>Noun</span></h4>
+                      <div class = 'div-child2-content-text'>
+                      <h4>Definition : <span class = 'definition1'>None of your business</span></h4>
+                      <h4>Example : <span class = 'example1'>hihih</span></h4>
+                         </div>
+                     </div>
+                     <div class = 'div-child2-content explain2' style="display:none">
+                     <h4><i class="fas fa-star"></i><span class = 'noun2'>Noun</span></h4>
+                   <div class = 'div-child2-content-text'>
+                   <h4>Definition : <span class = 'definition2'>None of your business</span></h4>
+                   <h4>Example : <span class = 'example2'>hihih</span></h4>
+                      </div>
+                     </div>
+                     <div class = 'div-child2-content explain3' style="display:none">
+                     <h4><i class="fas fa-star"></i><span class = 'noun3'>Noun</span></h4>
+                   <div class = 'div-child2-content-text'>
+                   <h4>Definition : <span class = 'definition3'>None of your business</span></h4>
+                   <h4>Example : <span class = 'example3'>hihihaa</span></h4>
+                         </div>
+                     </div>
+                  
+                  
+                      </div>
+              </form>
+                 
+             </div>
+             
+         </div>
+        <div class="footer">
+            <div class="fb">Liên hệ: <a href="#">Facebook</a></span></div>
+            <div class="copyright">&copy; Group 17</div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
